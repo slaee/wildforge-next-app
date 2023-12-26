@@ -5,14 +5,14 @@ import '@/styles/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Wildforge',
-	description: 'A system that manages your classrooms, teams, and class peer evaluations.',
+  title: 'Wildforge',
+  description: 'A system that manages your classrooms, teams, and class peer evaluations.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-	return (
-		<html lang='en'>
-			<body className={inter.className}>{children}</body>
-		</html>
-	);
+  return (
+    <html lang='en'>
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
 }
